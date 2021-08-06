@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@500&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.section{
+  height: 100vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-image: url(poulpe.jpg),linear-gradient(rgba(39, 37, 37, 0.185), rgb(12, 11, 11));
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-right: 8em;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1.2em;
+  /* height: 35%; */
+  border: 2px solid #cc8793
+  ;
+  padding: 5em;
+  border-radius: 2em;
+  transition: transform 0.5s;
+  
+  
+
+}
+.container:hover{
+  transform: scale(1.03);
+  transition: transform 0.5s;
+}
+.name{
+  font-family: 'Arimo', sans-serif;
+}
